@@ -17,7 +17,7 @@ Abaixo estão listados os exercícios iniciais contidos neste diretório:
 * **Exercicio05.java**: Cálculo de novo salário baseado em percentual de aumento variável.
 * **Exercicio06.java**: Cálculo de salário líquido considerando gratificação de 5% e imposto de 7%.
 
-## Tecnologias e Ferramentas
+## Ferramentas
 
 * Linguagem: Java
 * Ambiente: Java Development Kit (JDK)
