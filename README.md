@@ -1,36 +1,139 @@
-# Material de Java - UCB
+# Material Java - UCB
 
-Repositório destinado ao armazenamento de materiais e exercícios práticos da disciplina de Programação Orientada a Objetos (POO), no curso de Análise e Desenvolvimento de Sistemas da Universidade Católica de Brasília.
+Repositorio com exercicios e materiais da disciplina de Programacao Orientada a Objetos (POO) da Universidade Catolica de Brasilia.
 
-## Descrição do Projeto
+O objetivo deste projeto e registrar a evolucao das atividades praticas desenvolvidas em Java, cobrindo desde logica basica com entrada de dados ate conceitos introdutorios de orientacao a objetos.
 
-Este repositório contém a resolução de listas de exercícios focadas em lógica de programação e fundamentos da linguagem Java. O objetivo é registrar o progresso acadêmico e servir como base de consulta para os tópicos abordados em aula.
+## Conteudo do repositorio
 
-## Estrutura de Arquivos
+### Atividade 1
 
-Abaixo estão listados os exercícios iniciais contidos neste diretório:
+Exercicios de console com foco em operadores, entrada de dados e calculos basicos:
 
-* **Exercicio01.java**: Algoritmo para soma de quatro números inteiros.
-* **Exercicio02.java**: Cálculo de média aritmética entre três notas.
-* **Exercicio03.java**: Cálculo de média ponderada com pesos específicos.
-* **Exercicio04.java**: Cálculo de reajuste salarial com aumento fixo de 25%.
-* **Exercicio05.java**: Cálculo de novo salário baseado em percentual de aumento variável.
-* **Exercicio06.java**: Cálculo de salário líquido considerando gratificação de 5% e imposto de 7%.
+- `Exercicio01.java`: soma de quatro numeros inteiros.
+- `Exercicio02.java`: media aritmetica de tres notas.
+- `Exercicio03.java`: media ponderada com pesos informados pelo usuario.
+- `Exercicio04.java`: reajuste salarial com aumento fixo de 25%.
+- `Exercicio05.java`: calculo de novo salario com percentual variavel.
+- `Exercicio06.java`: salario final com gratificacao de 5% e imposto de 7%.
 
-## Ferramentas
+Pasta: `atividade - 1/`
 
-* Linguagem: Java
-* Ambiente: Java Development Kit (JDK)
-* Versionamento: Git
+### Atividade 2
 
-## Execução
+Exercicio introdutorio de orientacao a objetos com encapsulamento, construtor, getters, setters e operacoes de estoque:
 
-Para compilar e executar qualquer um dos exercícios, utilize os comandos abaixo no terminal:
+- `Produto.java`: classe que representa um produto.
+- `TestaProduto.java`: classe de execucao para testar o comportamento de `Produto`.
 
-```bash
-javac NomeDoArquivo.java
-java NomeDoArquivo
+Pasta: `atividade - 2/`
 
+## Estrutura
+
+```text
+.
+|-- atividade - 1/
+|   |-- Exercicio01.java
+|   |-- Exercicio02.java
+|   |-- Exercicio03.java
+|   |-- Exercicio04.java
+|   |-- Exercicio05.java
+|   `-- Exercicio06.java
+|-- atividade - 2/
+|   |-- Produto.java
+|   `-- TestaProduto.java
+`-- README.md
 ```
 
-**Desenvolvido por Matheus Barbosa**
+## Tecnologias utilizadas
+
+- Java
+- JDK para compilacao e execucao via terminal
+- Git para versionamento
+
+## Como executar
+
+### Pre-requisito
+
+Ter o Java instalado e o comando `javac` disponivel no terminal.
+
+Para verificar:
+
+```bash
+javac -version
+java -version
+```
+
+### Executando a Atividade 1
+
+Entre na pasta:
+
+```bash
+cd "atividade - 1"
+```
+
+Compile os arquivos:
+
+```bash
+javac *.java
+```
+
+Execute o exercicio desejado:
+
+```bash
+java Exercicio01
+```
+
+Substitua `Exercicio01` por qualquer classe da atividade:
+
+- `Exercicio02`
+- `Exercicio03`
+- `Exercicio04`
+- `Exercicio05`
+- `Exercicio06`
+
+Para voltar para a raiz do projeto:
+
+```bash
+cd ..
+```
+
+### Executando a Atividade 2
+
+Entre na pasta:
+
+```bash
+cd "atividade - 2"
+```
+
+Compile os arquivos:
+
+```bash
+javac *.java
+```
+
+Execute a classe de teste:
+
+```bash
+java TestaProduto
+```
+
+## Conceitos praticados
+
+- Entrada de dados com `Scanner`
+- Operacoes matematicas e formatacao de saida
+- Estruturas basicas de programas em Java
+- Criacao de classes e objetos
+- Encapsulamento com atributos privados
+- Uso de construtor, getters e setters
+- Manipulacao simples de estoque
+
+## Observacoes
+
+- O repositorio tambem possui arquivos `.class` gerados por compilacao.
+- A pasta `out/` contem artefatos produzidos pela IDE.
+- Os exemplos atuais sao voltados para estudo e execucao local.
+
+## Autor
+
+Matheus Barbosa
