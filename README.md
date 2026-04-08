@@ -203,3 +203,13 @@ cd ..
 ## Autor
 
 Matheus Barbosa
+
+## Entrega atual (Aula 07)
+
+Se a entrega for somente do exercicio de formas geometricas, use esta pasta:
+
+```bash
+cd "aula 07/Exercício - Formas Geométricas"
+javac *.java
+java App
+```
