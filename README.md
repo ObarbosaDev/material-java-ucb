@@ -44,6 +44,15 @@ A atividade modela regras de avaliacao da UCB e da Fafifo usando classes abstrat
 
 Pasta: `atividade - 3/`
 
+### Atividade 4
+
+Projeto Java simples para testar conexao com banco de dados MySQL usando JDBC.
+
+- `Conexao.java`: classe responsavel por abrir a conexao com o banco.
+- `Principal.java`: classe com `main` para testar se a conexao foi realizada.
+
+Pasta: `atividade - 4/ProjetoConexaoMySQL/`
+
 ### Aula 07
 
 Exemplos e exercicios sobre heranca em Java:
@@ -82,6 +91,11 @@ Pasta: `aula 07/`
 |               |-- ProvaFinalFafifo.java
 |               `-- teste/
 |                   `-- Teste.java
+|-- atividade - 4/
+|   `-- ProjetoConexaoMySQL/
+|       |-- README.md
+|       |-- Conexao.java
+|       `-- Principal.java
 |-- aula 07/
 `-- README.md
 ```
@@ -131,6 +145,14 @@ javac -d out src/universidade/prova/*.java src/universidade/prova/teste/*.java
 java -cp out universidade.prova.teste.Teste
 ```
 
+### Executando a Atividade 4
+
+```bash
+cd "atividade - 4/ProjetoConexaoMySQL"
+javac Conexao.java Principal.java
+java Principal
+```
+
 ### Executando os exemplos da Aula 07
 
 Entre na pasta da aula e depois na pasta do exemplo desejado:
@@ -154,6 +176,7 @@ java Main
 - Polimorfismo
 - Sobrescrita de metodos com `@Override`
 - Organizacao de codigo em pacotes
+- Conexao com banco de dados MySQL usando JDBC
 
 ## Observacoes
 
